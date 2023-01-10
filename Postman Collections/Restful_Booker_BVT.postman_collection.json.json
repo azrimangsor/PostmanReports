@@ -32,7 +32,7 @@
 							}
 						}
 					],
-					"_postman_id": "7d5cc732-2561-424d-9b8c-d0e01deb565c",
+					"id": "7d5cc732-2561-424d-9b8c-d0e01deb565c",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -83,7 +83,7 @@
 							}
 						}
 					],
-					"_postman_id": "c3bcaf02-fb55-4ef7-8868-474cfc15f403",
+					"id": "c3bcaf02-fb55-4ef7-8868-474cfc15f403",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -146,7 +146,7 @@
 							}
 						}
 					],
-					"_postman_id": "d7b416e1-3b71-4a65-a133-fcd1e9a8c3ad",
+					"id": "d7b416e1-3b71-4a65-a133-fcd1e9a8c3ad",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -209,7 +209,7 @@
 							}
 						}
 					],
-					"_postman_id": "41f6a283-6e4c-4adc-9e99-d995d3f954d7",
+					"id": "41f6a283-6e4c-4adc-9e99-d995d3f954d7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -278,7 +278,7 @@
 							}
 						}
 					],
-					"_postman_id": "fafca91b-77e8-4dd7-85e4-bd4b387b41c7",
+					"id": "fafca91b-77e8-4dd7-85e4-bd4b387b41c7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -342,7 +342,7 @@
 							}
 						}
 					],
-					"_postman_id": "50fd12aa-2f4e-44a2-a513-b85b66fd1a00",
+					"id": "50fd12aa-2f4e-44a2-a513-b85b66fd1a00",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -385,7 +385,7 @@
 							}
 						}
 					],
-					"_postman_id": "d1ff9475-fe20-47a0-8622-adae55fd6103",
+					"id": "d1ff9475-fe20-47a0-8622-adae55fd6103",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -411,7 +411,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "c17caf19-e26e-4380-bca7-d11b1cd65888",
+			"id": "c17caf19-e26e-4380-bca7-d11b1cd65888",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -510,7 +510,7 @@
 							}
 						}
 					],
-					"_postman_id": "6e755a0c-fa4a-4b62-8b1f-2e5a169fef70",
+					"id": "6e755a0c-fa4a-4b62-8b1f-2e5a169fef70",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -537,7 +537,7 @@
 							}
 						}
 					],
-					"_postman_id": "c0eb63c0-131f-4f22-8863-1a7e8ea7dbe7",
+					"id": "c0eb63c0-131f-4f22-8863-1a7e8ea7dbe7",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -549,7 +549,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "548ccc00-328e-4d35-b7ad-f442056d13f0"
+			"id": "548ccc00-328e-4d35-b7ad-f442056d13f0"
 		},
 		{
 			"name": "Create Booking",
@@ -581,7 +581,7 @@
 							}
 						}
 					],
-					"_postman_id": "72d4861f-65ad-43f8-9533-35457b4d6b43",
+					"id": "72d4861f-65ad-43f8-9533-35457b4d6b43",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -595,8 +595,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking"
 					},
@@ -619,7 +618,7 @@
 							}
 						}
 					],
-					"_postman_id": "880f1208-dc53-4c65-abea-2253838bd9b9",
+					"id": "880f1208-dc53-4c65-abea-2253838bd9b9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -633,15 +632,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : null,\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : null,\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "326ffdc5-781b-40ae-a2d8-80609bfdd18f"
+			"id": "326ffdc5-781b-40ae-a2d8-80609bfdd18f"
 		},
 		{
 			"name": "Modify Booking",
@@ -712,7 +710,7 @@
 							}
 						}
 					],
-					"_postman_id": "cbc10a9e-89dd-431a-9ea0-2c9380878839",
+					"id": "cbc10a9e-89dd-431a-9ea0-2c9380878839",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -741,8 +739,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking/{{booking_id}}"
 					},
@@ -796,7 +793,7 @@
 							}
 						}
 					],
-					"_postman_id": "6408fd77-2729-415d-abd3-21cfe2f71cd3",
+					"id": "6408fd77-2729-415d-abd3-21cfe2f71cd3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -825,8 +822,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : null,\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : null,\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"{{checkin}}\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking/{{booking_id}}"
 					},
@@ -880,7 +876,7 @@
 							}
 						}
 					],
-					"_postman_id": "8597f61e-8e2f-4098-b7b5-e3f5278fe868",
+					"id": "8597f61e-8e2f-4098-b7b5-e3f5278fe868",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -909,15 +905,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"2019-12-32\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\",\n    \"totalprice\" : {{totalprice}},\n    \"depositpaid\" : {{depositpaid}},\n    \"bookingdates\" : {\n        \"checkin\" : \"2019-12-32\",\n        \"checkout\" : \"{{checkout}}\"\n    },\n    \"additionalneeds\" : \"{{additionalneeds}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking/{{booking_id}}"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "58cfbab1-0713-49d0-8652-b301f3d5a0bb"
+			"id": "58cfbab1-0713-49d0-8652-b301f3d5a0bb"
 		},
 		{
 			"name": "Patch Modify Booking",
@@ -975,7 +970,7 @@
 							}
 						}
 					],
-					"_postman_id": "cced9e22-1aa9-467b-ad56-54b866a3bcdb",
+					"id": "cced9e22-1aa9-467b-ad56-54b866a3bcdb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1004,8 +999,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : \"{{firstname}}\",\n    \"lastname\" : \"{{lastname}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking/{{booking_id}}"
 					},
@@ -1058,7 +1052,7 @@
 							}
 						}
 					],
-					"_postman_id": "77136298-370c-4c6e-a3d0-b6b75e9e4ab0",
+					"id": "77136298-370c-4c6e-a3d0-b6b75e9e4ab0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -1087,15 +1081,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstname\" : null,\n    \"lastname\" : \"{{lastname}}\"\n}",
-							"options": {}
+							"raw": "{\n    \"firstname\" : null,\n    \"lastname\" : \"{{lastname}}\"\n}"
 						},
 						"url": "{{rb_url}}/booking/{{booking_id}}"
 					},
 					"response": []
 				}
 			],
-			"_postman_id": "e5d9766a-ff9c-4048-91bf-9d5132c13e4c"
+			"id": "e5d9766a-ff9c-4048-91bf-9d5132c13e4c"
 		},
 		{
 			"name": "Ping",
@@ -1115,7 +1108,7 @@
 					}
 				}
 			],
-			"_postman_id": "7d06a353-1e04-467f-9e78-987a87238f96",
+			"id": "7d06a353-1e04-467f-9e78-987a87238f96",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1147,7 +1140,7 @@
 					}
 				}
 			],
-			"_postman_id": "efa44a70-4c3e-438d-9203-325e59bd6bcf",
+			"id": "efa44a70-4c3e-438d-9203-325e59bd6bcf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -1166,45 +1159,11 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}",
-					"options": {}
+					"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
 				},
 				"url": "{{rb_url}}/auth"
 			},
 			"response": [
-				{
-					"id": "7ada69b6-5c3a-4fff-8f84-fc3607fbd675",
-					"name": "Auth Token Missing",
-					"originalRequest": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
-						},
-						"url": "{{rb_url}}/auth"
-					},
-					"status": "Bad Request",
-					"code": 400,
-					"_postman_previewlanguage": "json",
-					"header": [
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "",
-							"type": "text"
-						}
-					],
-					"cookie": [],
-					"responseTime": null,
-					"body": "{\n    \"token\": \"\"\n}"
-				},
 				{
 					"id": "9542c815-e275-4d87-a179-54a290b49acf",
 					"name": "Auth",
@@ -1237,6 +1196,39 @@
 					"cookie": [],
 					"responseTime": null,
 					"body": "{\n    \"token\": \"c35fa15b3e71ebf\"\n}"
+				},
+				{
+					"id": "7ada69b6-5c3a-4fff-8f84-fc3607fbd675",
+					"name": "Auth Token Missing",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"admin\",\n    \"password\" : \"password123\"\n}"
+						},
+						"url": "{{rb_url}}/auth"
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"token\": \"\"\n}"
 				}
 			]
 		},
@@ -1279,6 +1271,10 @@
 							"    pm.response.to.have.status(201);",
 							"});",
 							"",
+							"pm.test(\"Response time is less than 500ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});",
+							"",
 							"pm.sendRequest(pm.environment.get(\"rb_url\") + \"/booking/\" + pm.variables.get(\"booking_id\"), function (err, res) {",
 							"  if (err) { console.log(err); }",
 							"  pm.test('Booking no longer exists', function () {",
@@ -1291,7 +1287,7 @@
 					}
 				}
 			],
-			"_postman_id": "c0b3c2ea-1802-4f93-bcac-5d662c4e901c",
+			"id": "c0b3c2ea-1802-4f93-bcac-5d662c4e901c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
