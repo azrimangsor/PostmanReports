@@ -1096,15 +1096,19 @@
 				{
 					"listen": "test",
 					"script": {
+						"id": "ab9eac7b-6121-467e-9984-65cf3adcf8e1",
 						"exec": [
 							"pm.test(\"Ping is successful\", function () {",
 							"    pm.response.to.be.success;",
 							"});",
 							"",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"",
 							"postman.setNextRequest(null);"
 						],
-						"type": "text/javascript",
-						"id": "ab9eac7b-6121-467e-9984-65cf3adcf8e1"
+						"type": "text/javascript"
 					}
 				}
 			],
